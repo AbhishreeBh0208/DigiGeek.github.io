@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DigiGeek | Sign Up</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/TDG logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="loader-container">
+            <div class="loader">
+                <div class="loader__animation"></div>
+                <p class="loader__text">One moment please</p>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="navbar__pages">
+                <a href="index.html" class="navbar__logo">
+                    <img src="img/TDG logo.png" alt="logo" class="navbar__logo--img">
+                    <p class="navbar__logo--text">DigiGeek</p>
+                </a>
+                <a href="about.html" class="navbar__link">About</a>
+                <a href="buy.html" class="navbar__link">Buy</a>
+                <a href="contact.html" class="navbar__link">Contact</a>
+            </div>
+            <div class="navbar__account">
+                <div class="navbar__account--links">
+                    <a href="sign in.html" class="navbar__link">Sign In</a>
+                    <a href="sign up.html" class="navbar__link navbar__create-link">Create Account</a>
+                </div>
+                <div class="toggleNav"></div>
+            </div>
+        </nav>
+        <div class="navbar-responsive">
+            <a href="about.html" class="navbar-responsive__link">About</a>
+            <a href="buy.html" class="navbar-responsive__link">Buy</a>
+            <a href="contact.html" class="navbar-responsive__link">Contact</a>
+            <a href="sign in.html" class="navbar-responsive__link">Sign In</a>
+            <a href="sign up.html" class="navbar-responsive__link">Create Account</a>
+        </div>
+
+        <div class="signUp-hero">
+            <div class="signUp-hero__img-container">
+                <img src="img/sign up pic.png" alt="welcome aboard" class="signUp-hero__img">
+            </div>
+            <div class="signUp-hero__text">
+                <h1 class="signUp-hero__head">Welcome <span class="color">Aboard!</span></h1>
+                <div class="form mgb-large">
+                    <form action="">
+                        <input type="text" class="form__input" placeholder="name" required>
+                        <input type="tel" class="form__input" placeholder="mobile" required>
+                        <input type="email" class="form__input" placeholder="email" required>
+                        <input type="password" class="form__input" placeholder="password" required>
+                        <a href="#" class="btn--orange">Submit</a>
+                        <a href="sign in.html" class="btn--text">Already have an account?</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
